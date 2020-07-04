@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  
+</head>
+<body>
+    <section id="title">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="h1-first">Find your Friend</h1>
+                <h1 class="h1-second">Love ❤ Score</h1>
+            </div>
+        </div>    
+        <form action="" name="form" onsubmit=required()>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 first-col">
+                <label class="label-name" for="first"><h5> Enter Your Name</h5></label> <br>   
+                <input type="text" name="firstname"  id="first" onkeyup="movetoNext(this, 'second')" required><br>
+                <label class="label-name" for="second"><h5>Enter Your Friend's Name</h5></label> <br>   
+                <input type="text" name="secondname"  id="second" onkeyup="movetoNext(this, 'second')" required>
+                    
+            </div>
+            <div class="col-lg-12 col-md-12 second-col">
+                <input type="button" class="button-first" value="Find"  onclick=loveFinder() >
+                
+            
+            </div>
+        </div>        
+        </form>            
+               
+
+            
+    </div>    
+    </section>
+    <!--Bootstrap JavaScript-->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
