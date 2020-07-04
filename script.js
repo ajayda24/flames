@@ -30,6 +30,6 @@ function loveFinder(){
         var quote="Best Friend ❤";
     }
 
-    alert("Your Love Score : " +loveScore +"% \n\n" +quote +"\n-----------------------------------------------\nDeveloped by Ajay Daniel Trevor");
+    alert("Your Love Score : " +loveScore +"% \n\n" +quote+"\n(Don't look the same name again , because we can't control the time in future)" +"\n-----------------------------------------------\nDeveloped by Ajay Daniel Trevor");
     }
 }
