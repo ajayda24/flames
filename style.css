@@ -6,6 +6,7 @@ body{
 
 #title{
     background-color: #142850;
+    height:1520px;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -23,7 +24,7 @@ h5{
     color: #af9a9a;
 }
 .container-fluid{
-    padding: 3% 7%;
+    padding: 3% 3%;
 }
 /* First-Page */
 .h1-first{
@@ -32,7 +33,7 @@ h5{
 
 }
 .h1-second{
-    padding:0% 15% 7%;
+    padding:0% 1% 7%;
     text-align: center;
 }
 .first-col{
