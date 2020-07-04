@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    height:1600px
+    height:1600px;
+    margin:0;
 }
 
 #title{
