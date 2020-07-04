@@ -1,0 +1,72 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #142850;
+    height: auto;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #00909e;
+}
+h5{
+    color: #af9a9a;
+}
+.container-fluid{
+    padding: 3% 7%;
+}
+/* First-Page */
+.h1-first{
+    padding:1% 15% 1%;
+    text-align: center;
+
+}
+.h1-second{
+    padding:0% 15% 7%;
+    text-align: center;
+}
+.first-col{
+    text-align: center;
+    margin-top: -5%;
+}
+.second-col{
+    text-align: center;
+}
+input[type=button]{
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #e43f5a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px 12px;
+  width: 40%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3%;
+}
+input[type=text]{
+  border-radius: 4px;
+  width: 50%;
+  font-size: 2rem;
+  padding: 1% 1%;
+  margin: 1% 3%;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+@media screen and (max-width: 684px){
+    input[type=text]{
+       width: 80%;
+    }
+}
