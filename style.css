@@ -19,7 +19,9 @@ h2{
     color: #fff;
 }
 h5{
-    color: #af9a9a;
+    padding:1% 15% 1%;
+    text-align: center;
+    color: #e2e2e2;
 }
 .container-fluid{
     padding: 3% 3%;
